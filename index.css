@@ -403,7 +403,6 @@ section .variant-container .color-container {
   gap: 0.5rem;
   background-color: #F6EEE8;
   margin: 0 auto;
-  margin-bottom: 2rem;
   border-radius: 15px;
   border: #F2EAE4 solid 1px;
   padding: 1rem;
@@ -440,4 +439,42 @@ section .variant-container .color-container {
   color: #666;
   font-weight: 500;
   margin-top: 0.5rem;
+}
+
+
+/* Bottom Part */
+footer {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 1.2rem;
+  background-color: #F6EEE8;
+  border-radius: 15px;
+  border: #F2EAE4 solid 1px;
+  margin-bottom: 2rem;
+}
+footer .quality{
+  width: 22%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  border-right: #e4e4e4 solid 1px;
+}
+
+footer .quality .icon i {
+  font-size: 3rem;
+}
+
+footer .quality:nth-last-child(-n+2) .icon i {
+  color: #E55C00;
+}
+
+footer .quality p {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+  margin-top: 0.25rem;
 }
